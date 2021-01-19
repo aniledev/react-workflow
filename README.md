@@ -20,6 +20,7 @@
 - DRY: figure out the absolute minimal representation of the state your application needs
 - Make a list of each piece of data that could be state
 - Go through each piece of data and ask the following 3 questions: 1. If it's passed down from a parent via props, then it's probably not state; 2. If it remains unchanged over time, then it probably isn't state. Remember that state changes; 3. Can it be calculated/computed from any other state data or props? If it can be, then it isn't state.
+- Remember, state can also include which route/page to display.
 
 ## Step 4: Identify Where Your State Should Live
 
