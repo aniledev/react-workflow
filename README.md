@@ -24,7 +24,11 @@
 
 ## Step 4: Identify Where Your State Should Live
 
+- State should live in the lowest common ancestor of the components that need access to state
+
 ## Step 5: Add Inverse Data Flow
+
+- Lastly, add your interactivity with the help of callback props
 
 ## Step 6: Refactoring
 
